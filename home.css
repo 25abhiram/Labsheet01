@@ -1,0 +1,107 @@
+body {
+  background-color: #2a2a55;
+  color: white;
+  text-transform: capitalize;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#header {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 10px;
+}
+
+#title {
+  text-align: left;
+}
+#profile {
+  text-align: right;
+  width: 150px;
+  height: 150px;
+  border: 2px solid rgb(210, 210, 222);
+  border-radius: 50%;
+}
+#aboutme {
+  background-color: #131252;
+  width: 75vw;
+  padding: 20px;
+  box-shadow: 3px 3px 10px 1px white;
+  border-radius: 5px;
+  text-align: justify;
+}
+table {
+  table-layout: fixed;
+  width: 80vw;
+  border-spacing: 20px 20px;
+}
+td h4 {
+  text-align: center;
+}
+h4 span {
+  display: block;
+}
+
+td {
+  padding: 10px 10px;
+  background-color: #131252;
+  box-shadow: 3px 3px 10px 1px white;
+}
+
+#footer {
+  text-align: center;
+}
+footer div a img,
+.email img,
+.phone img {
+  height: 25px;
+  width: 25px;
+  border: 3px solid white;
+  border-radius: 40%;
+  background-color: white;
+}
+footer {
+  background-color: #131252;
+  box-shadow: 3px 3px 10px 1px white;
+
+  height: 20vh;
+  width: 75vw;
+  display: grid;
+  grid-template-columns: 150px 150px 150px;
+  justify-content: center;
+  align-items: center;
+}
+footer div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.facebook {
+  justify-content: right;
+}
+.linkedin {
+  justify-content: left;
+}
+.email,
+.phone {
+  grid-column: span 3;
+  text-transform: lowercase;
+}
+footer div a {
+  color: white;
+  text-decoration: none;
+}
+#next {
+  background-color: #131252;
+  box-shadow: 3px 3px 10px 1px white;
+  width: 150px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+#next a {
+  text-decoration: none;
+  color: white;
+}
